@@ -1,6 +1,6 @@
 using System;
 
-namespace csharp_task3
+namespace task3
 {
     class Program
     {
@@ -8,8 +8,8 @@ namespace csharp_task3
         {
              string[] GameLevel = new string[3] { "Easy", "Medium", "Hard" };
             string Level;
-            Console.WriteLine("Hello,how are you today !");
-            Console.WriteLine("This is a number guessing game with three levels.");
+            Console.WriteLine("Hello!");
+            Console.WriteLine("guessing game.");
             Console.WriteLine(GameLevel[0]);
             Console.WriteLine(GameLevel[1]);
             Console.WriteLine(GameLevel[2]);
